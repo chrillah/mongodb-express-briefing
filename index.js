@@ -36,16 +36,16 @@ await users.insertOne({
 //     console.log('Its On')
 // })
 
-await users.insertOne({
-    address : {
-        city : 'Stockholm',
-        street : 'Kåkbrinken',
-        zipCode : '111 49'
-    },
-    firstName : 'Chris',
-    registered : new Date(),
-    surname : 'Surnamn'
-})
+// await users.insertOne({
+//     address : {
+//         city : 'Stockholm',
+//         street : 'Kåkbrinken',
+//         zipCode : '111 49'
+//     },
+//     firstName : 'Chris',
+//     registered : new Date(),
+//     surname : 'Surnamn'
+// })
 
 // console.log('Ny dokument tillagd')
 
